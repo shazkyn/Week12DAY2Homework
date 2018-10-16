@@ -1,10 +1,12 @@
-package attractions;
+package themePark.stalls;
 
-public abstract class Attraction {
+
+public abstract class Stall {
 
     private String name;
+    private int rating;
 
-    public Attraction(String name){
+    public Stall(String name){
         this.name = name;
     }
 
@@ -12,3 +14,5 @@ public abstract class Attraction {
         return name;
     }
 }
+
+

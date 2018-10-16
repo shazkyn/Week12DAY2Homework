@@ -1,4 +1,4 @@
-import attractions.Rollercoaster;
+import themePark.attractions.Rollercoaster;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package attractions;
+package themePark.attractions;
 
 public class Dodgems extends Attraction {
 

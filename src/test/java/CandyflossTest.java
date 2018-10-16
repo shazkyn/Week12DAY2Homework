@@ -1,4 +1,4 @@
-import stalls.CandyFloss;
+import themePark.stalls.CandyFloss;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

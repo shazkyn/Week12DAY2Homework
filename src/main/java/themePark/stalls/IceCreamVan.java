@@ -1,4 +1,4 @@
-package stalls;
+package themePark.stalls;
 
 public class IceCreamVan extends Stall {
     public IceCreamVan(String name){

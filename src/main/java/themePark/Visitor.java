@@ -1,15 +1,17 @@
-
+package themePark;
 
 public class Visitor {
 
     private String name;
     private double height;
     private double money;
+    private int age;
 
-    public Visitor (String name, Double height, double money ) {
+    public Visitor (String name, Double height, double money, int age) {
         this.name = name;
         this.height = height;
         this.money = money;
+        this.age = age;
     }
 
     public String getName() {
@@ -24,13 +26,7 @@ public class Visitor {
         return this.money;
     }
 
-//    public void raiseSalary(double raise){
-//        if (raise > 0) {
-//            this.salary += raise;
-//        }
-//    }
-//
-//    public double payBonus(){
-//        return this.salary * 0.01;
-//    }
+    public int getAge() {
+        return this.age;
+    }
 }
